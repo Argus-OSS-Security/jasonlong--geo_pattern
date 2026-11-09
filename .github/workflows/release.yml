@@ -1,9 +1,10 @@
 name: Release
 
-on:
-  push:
-    tags: ['v[0-9]*']
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   push:
+#     tags: ['v[0-9]*']
+# 
 permissions:
   contents: read
 
